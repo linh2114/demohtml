@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>  
+    <script src='main.js'></script>
+</head>
+<body >
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/diemdanh" method="POST"> 
+        <label class="required">Ten</label>
+        <input name="Ten" type="text" maxlength="40" minlength="5">
+        <label class="required">MSSV</label>
+        <input name="MSSV" type="text" maxlength="5" minlength="1">
+        <label class="required">MaBiMat</label>
+       <input type="number" name="MaBiMat" max="1000" min="99">
+       <label  class="required">Email</label>
+       <input name="Email" type="email">
+       <label class="required">Phone</label>
+       <input name="Phone" type="tel" >
+       <label class="required">HTML</label>
+       <textarea name="HTML" rows="15" cols="70"></textarea>
+       <input type="reset" value="Reset">
+        <input    type="submit" value="Submit">
+        <div style="height:100vh; weight:100vw;">
+            <p class="text-format">This page has a light blue background color!</p>
+    </form>
+</body>
+</html>
