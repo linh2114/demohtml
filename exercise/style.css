@@ -1,0 +1,159 @@
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 158, 196);
+}
+nav{
+    background-color: rgb(108, 200, 228) ;
+    font-size: 13px;
+    color: black;
+}
+nav>ul>li{
+        color: black;
+        display:inline-block ;
+        padding: 8px;
+        text-align: center;
+        font-size: 18px ;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+       
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav>ul>li>a:hover{
+    color: white;
+}
+nav>ul>li:hover{
+   
+    background-color: rgb(16, 159, 216);
+}
+nav>ul{
+    list-style-type: none;
+}
+.line-1{
+    /* height: 25px;
+    background-color: rgb(49, 206, 245);
+    border: 1px solid gray;
+    width: 100%; */
+    background-color: rgb(49, 206, 245);
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 0px;
+    text-align: left;
+    padding: 4px;
+}
+.dangky{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(49, 206, 245);
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    background-color: initial;
+  
+}
+form{
+    border:gray 2px;
+}
+label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-a{
+    width: 46%;
+    display: inline-block;
+    margin-left: 20px;
+    border: solid 2px gray;
+    padding: 10px;
+}
+.line-1{
+    width: 100%;
+    background-color: rgb(109, 201, 243);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-top: 0px;;
+}
+input{
+    width: 100%;
+}
+/* // tru 2 cai nay khong width: 100%; */
+input[type=submit],input[type=reset],input[type=radio]{
+    width: initial; 
+}
+.col-25{
+    padding: 5px;
+    float: left;
+    width: 27%;
+
+}
+.col-75{
+    padding: 5px;
+    float: left;
+    width: 69%;
+}
+label{
+    display: inline-block;
+}
+input[type=submit]{
+    margin: 20px 100px 100px 500px;
+    cursor: pointer;
+    width: 100px;
+    display: inline;
+    float: left;
+}
+input[type=reset]{
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: default;
+    margin: 20px 20px;
+    width: 100px;
+    display: inline;
+    float: left;
+}
+.dongy{
+    float: left;
+    width: 15%;
+}
+.nhaplai{
+    float: left;
+    width: 35%;
+}
+footer{
+ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.required::after {
+    content:" *";
+    color:red;
+}
+.bo{
+    padding: 8px;
+}
+input{
+    height: 30px;
+}
+@media (max-width:800px){
+   label{
+       width: 100%;
+   }
+   input{
+       width: 100%;
+   }
+   input[type=submit]{
+       margin: auto ;
+   }
+   input[type=reset]{
+       margin: auto;
+   }
+}

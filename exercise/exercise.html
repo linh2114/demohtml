@@ -6,14 +6,17 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>  
-    <script src='main.js'></script>
+    <!-- <script src='main.js'></script> -->
 
 </head>
 <body>
     <header>
-        ITPLUS-ACADEMY.COM.VN
+        <b>
+            ITPLUS-ACADEMY.COM.VN 
+        </b>
+     
     </header>
-    <nav>
+    <nav style="height: 40px;">
         <ul>
             <li class="active"><a href="#">Trang chủ</a></li>
             <li><a href="#" >Giới thiệu</a></li>
@@ -21,41 +24,99 @@
             <li><a href="#" >Tin tức </a></li>
         </ul>
     </nav>
-    <div class="dangky">ĐĂNG KÝ TÀI KHOẢN</div>
-    <form id="form1">
-        <div>
-            <label>Chi tiết tài khoản</label>
+        <p class="dangky"> ĐĂNG KÝ TÀI KHOẢN</p>
+    <div>
+    <form>
+    <div class="col-a" >
+        <p class="line-1" >Chi tiết tài khoản</p>
+        <div class="bo">
+            <div class="col-25">
+                <label  class="required" >Tên đăng nhập</label>  </div>
+                <div class="col-75">
+                     <input type="text" maxlength="20">
+                </div>
         </div>
-        <label>Tên đăng nhập</label>
-        <input type="text" maxlength="20">
-        <label>Mật khẩu</label>
-        <input type="password" min="8" max="16">
-        <label>Xác nhận mật khẩu</label>
-        <input type="password" min="8" max="16">
-        <label>Email</label>
-        <input type="email" >
-    </form>
-    <form id="form2">
-        <div>
-         <label>Thông tin người sử dụng</label>
+        <div class="bo">
+            <div class="col-25">
+                <label  class="required">Mật khẩu</label>  </div>
+                <div class="col-75">
+                 <input type="password" min="8" max="16">
+                </div>
         </div>
-        <label>Họ và tên</label>
-        <input type="text" maxlength="20">
-        <label>Gioi tinh</label>
-        <br> <label>Nam</label>
-         <input type="radio" value="0" name="gioitinh">
-         <label>Nữ</label>
-        <input type="radio" value="1" name="gioitinh">
-        <label>Ngày sinh</label>
-        <input type="date" >
-        <label>Địa chỉ</label>
-        <input type="text" maxlength="50">
-        <label>Số điện thoại</label>
-        <input name="phone" type="tel">
+     <div class="bo">
+        <div class="col-25">
+            <label  class="required">Xác nhận mật khẩu</label>   </div>
+            <div class="col-75">
+                <input type="password" min="8" max="16">
+            </div>
+     </div>
+       <!-- <div class="bo">
+        <div class="col-25">
+            <label  class="required">Email</label> 
+        </div>
+        <div class="col-75">
+            <input type="email" >
+        </div>
+       </div> -->
+       <div class="bo">
+        <div class="col-25">
+            <label  class="required">Email</label>   </div>
+            <div class="col-75">
+                <input type="email" >
+            </div>
+     </div>
+    </div> 
+    <div class="col-a">
+        <p class="line-1" >Thông tin người sử dụng</p>
+        <div class="bo">
+            <div class="col-25">
+                <label  class="required">Họ và tên</label> </div>
+                <div class="col-75">
+                    <input class="input" type="text" maxlength="20">
+                </div>
+        </div>
+       <div class="bo">
+        <div class="col-25">
+            <label  class="required">Giới tính</label>  </div>
+            <div class="col-75">
+                <label>Nam</label>
+                <input type="radio" value="0" name="gioitinh"> 
+                <label>Nữ</label>
+                <input type="radio" value="1" name="gioitinh">
+            </div>
+       </div>
+        
+          <div class="bo">
+            <div class="col-25" >
+                <label >Ngày sinh</label>  </div>
+                <div class="col-75">
+                    <input type="date" >
+                    </div>
+          </div>
+        <div class="bo">
+            <div class="col-25">
+                <label  class="required">Địa chỉ</label>  </div>
+                <div class="col-75">
+                    <input type="text" maxlength="50">
+                </div>
+        </div>
+        <div class="bo">
+            <div class="col-25">
+                <label  class="required">Số điện thoại</label>  </div>
+                <div class="col-75">
+                    <input name="phone" type="tel">
+                </div>
+        </div>
+    
+    </div>
+     <input type="submit" value="Đồng ý">
+    <input type="reset" value="Nhập lại">      
 
-    </form>
-    <input type="Dongy" value="Đồng ý">
-    <input type="reset" value="Nhập lại">
+</form>
+</div>
 
+<footer>
+    <p>Copyright © 2011 All Rights. Phát triển bởi ITPlus Academy</p>
+</footer>
 </body>
 </html>
